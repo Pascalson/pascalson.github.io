@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD candidate at <a href='https://www.ucsb.edu/'>UCSB</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: my_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ytuan at ucsb.edu</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+My research interest is the **inner and outer interpretability of deep learning models**, where *inner* refers to the underlying theory for training the models and *outer* refers to unveiling the models' reason in producing the outputs.
+Along this line, my works include:
+* Inner and Outer interpretability in Dialogue Generation
+* Science and Machine Learning
+* Deep Reinforcement Learning and Generative Adversarial Nets
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently a Computer Science PhD candidate at University of California, Santa Barbara (UCSB), working with professor [William Yang Wang](https://sites.cs.ucsb.edu/~william/). Before that, I received BS degree in Electrical Engineering from National Taiwan University, where I worked with professor [Lin-shan Lee](http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm) on speech processing, professor [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php) on generative adversarial nets and reinforcement learning, professor [Yun-Nung Chen](https://www.csie.ntu.edu.tw/~yvchen/) on Conversational AI.
+I have interned at Meta (Facebook) AI at 2023 (host by [Dan Bikel](https://scholar.google.com/citations?user=St5gv-4AAAAJ&hl=en)), 2022 (host by [Wenhan Xiong](https://xwhan.github.io/) and [Yashar Mehdad](https://scholar.google.com/citations?user=hFKgapkAAAAJ&hl=en)) and 2020 (host by [Ahmed El-Kishky](https://ahelk.github.io/) and [Paco Guzmán](https://guzmanhe.github.io/)), and Amazon Alexa AI (host by [Sajjad Beygi](https://scholar.google.com/citations?user=_ZSfAa4AAAAJ&hl=en) and [Marriam Fazel-Zarandi](https://www.maryamfazel.com/)) at 2021.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+More details of me are in my [CV](CV_20231019.pdf). Feel free to contact me via email.

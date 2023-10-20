@@ -1,6 +1,23 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"Preprint":
+  color: "#b2d3c2"
+
+"RL":
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Dialog":
+  color: "#ed820e"
+
+"Eval":
+  color: "#016064"
+
+"PS4ML":
+  color: "#900603"
+
+"XAI":
+  color: "#52b2bf"
+
+"Speech":
+  color: "#bc544b"
+
+"BioVision":
+  color: "#74b72e"
