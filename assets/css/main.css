@@ -115,6 +115,27 @@ strong {
   color: var(--global-text-color);
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+ul {
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+
+li {
+  font-size: 0.75rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -352,7 +373,7 @@ blockquote {
 
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.5rem;
 }
 footer.fixed-bottom .container {
   color: var(--global-footer-text-color);
@@ -526,6 +547,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
   margin-bottom: -2rem;
   text-align: right;
+  font-size: 1.2rem;
 }
 .publications ol.bibliography {
   list-style: none;
@@ -533,7 +555,8 @@ footer.sticky-bottom {
   margin-top: 0;
 }
 .publications ol.bibliography li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
@@ -563,20 +586,15 @@ footer.sticky-bottom {
 .publications ol.bibliography li .title {
   font-weight: bolder;
 }
-.publications ol.bibliography li .author a {
-  border-bottom: 1px dashed var(--global-theme-color);
-}
 .publications ol.bibliography li .author a:hover {
-  border-bottom-style: solid;
   text-decoration: none;
 }
 .publications ol.bibliography li .author > em {
-  border-bottom: 1px solid;
   font-style: normal;
+  font-weight: bold;
 }
 .publications ol.bibliography li .author > span.more-authors {
   color: var(--global-text-color-light);
-  border-bottom: 1px dashed var(--global-text-color-light);
   cursor: pointer;
 }
 .publications ol.bibliography li .author > span.more-authors:hover {
@@ -588,8 +606,9 @@ footer.sticky-bottom {
   border: 1px solid var(--global-text-color);
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  font-size: 0.5rem;
 }
 .publications ol.bibliography li .links a.btn:hover {
   color: var(--global-theme-color);
