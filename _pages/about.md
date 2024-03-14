@@ -21,4 +21,4 @@ I received a BS in Electrical Engineering from **National Taiwan University**, w
 I also enjoyed interning at Meta AI and Amazon Alexa AI on (L)LM fine-tuning, pretraining, reasoning, and evaluation.
 
 I'm working on the **intersection of model expressiveness, interpretation, reinforcement learning, and language modeling**.
-More details about me are in my [CV](my_original_webpage/Files/CV_20231019.pdf). Feel free to contact me via email.
+More details about me are in my [CV](./CV_20240314.pdf). Feel free to contact me via email.
