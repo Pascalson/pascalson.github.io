@@ -13,3 +13,7 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+my_readme.md
+my_original_webpage/
+_pages/projects.md
+_projects/*

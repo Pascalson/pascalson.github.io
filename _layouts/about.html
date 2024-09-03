@@ -38,6 +38,7 @@ layout: default
               <div class="social">
                 <div class="contact-icons">
                   {% include social.html %}
+                  <a href="CV_20240831.pdf" title="CV"><i class="fa fa-address-card" aria-hidden="true"></i></a>
                 </div>
 
                 <div class="contact-note">
@@ -53,6 +54,58 @@ layout: default
             {{ content }}
           </div>
 
+          <div class="experience">
+            <h3>Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
+
+              <table>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/ucsb.gif"></td>
+                  <td>PhD, Computer Science, University of California Santa Barbara</td>
+                  <td>2019-2024</td>
+                </tr>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/ntu-short.png"></td>
+                  <td>BS, Electrical Engineering, National Taiwan University</td>
+                  <td>2013-2017</td>
+                </tr>
+              </table>
+          </div>
+          <div class="experience">
+            <h3>Experience <i class="fa fa-suitcase" aria-hidden="true"></i></h3>
+              <table>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/ucsb.gif"></td>
+                  <td>Graduate Student Researcher, University of California Santa Barbara</td>
+                  <td>2019-2024</td>
+                </tr>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/meta.png"></td>
+                  <td>Research Intern, Meta GenAI</td>
+                  <td>2023</td>
+                </tr>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/meta.png"></td>
+                  <td>Research Intern, Meta AI</td>
+                  <td>2022</td>
+                </tr>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/amazon.png"></td>
+                  <td>Applied Scientist Intern, Amazon Alexa AI</td>
+                  <td>2021</td>
+                </tr>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/facebook.png"></td>
+                  <td>Research Intern, Facebook AI</td>
+                  <td>2020</td>
+                </tr>
+                <tr>
+                  <td><img class="logo" src="/assets/img/logos/ntu-short.png"></td>
+                  <td>Research Assitant, National Taiwan University</td>
+                  <td>2017-2019</td>
+                </tr>
+              </table>
+          </div>
+
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
@@ -62,12 +115,13 @@ layout: default
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <!--<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">publications</a></h2>-->
-            <h2>publications & preprints</h2>
+            <!--<h2>publications & preprints</h2>-->
+            <h2>Research Papers</h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
           <!-- Misc -->
-            <h2>miscs</h2>
+            <h2>miscs <i class="fa fa-music" aria-hidden="true"></i></h2>
               <div>
                  <p>I like to write songs, play the guitar, learn languages, and explore new things!</p>
               </div>
