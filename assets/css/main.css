@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #0378B8;
+  --global-hover-color: #0378B8;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -121,6 +121,11 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
+  font-weight: 500;
+}
+
+h2 i {
+  font-size: 1.75rem;
 }
 
 p {
@@ -128,8 +133,8 @@ p {
 }
 
 ul {
-  margin-top: 0.15rem;
-  margin-bottom: 0.15rem;
+  margin-top: -0.5rem; /*0.15rem;*/
+  margin-bottom: 0.75rem; /*0.15rem;*/
 }
 
 li {
@@ -789,6 +794,47 @@ pre .copy:active, pre .copy:focus, pre .copy:hover {
 pre:active .copy, pre:focus .copy, pre:hover .copy {
   color: var(--global-hover-color);
   opacity: 1;
+}
+
+.experience {
+  width: 100%;
+  margin: 10px 0 40px 0;
+}
+
+.experience h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.experience i {
+  font-size: 1.25rem;
+}
+
+.experience table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.experience td:nth-child(1) {
+  width: 10%;
+  text-align: center;
+}
+
+.experience td:nth-child(2) {
+  width: 80%;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.experience td:nth-child(3) {
+  width: 10%;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.experience .logo {
+  /*width: 100%;*/
+  height: 40px;
 }
 
 /*******************************************************************************
