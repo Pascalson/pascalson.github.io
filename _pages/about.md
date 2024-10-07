@@ -24,6 +24,6 @@ My research includes:
 - Text Generative Model Explanation and Evaluation: [Language Model Generation Explanation (2021)](#tuan2021local), [Interpretable Knowledge Augmented Dialogue Model (2022)](#tuan2022towards), [Quality Estimation with Synthetic Data (2021)](#tuan2021quality)
 
 
-I'm currently a PhD candidate in Computer Science at the **University of California Santa Barbara (UCSB)**, working with Professor [William Yang Wang](https://sites.cs.ucsb.edu/~william/).
+I received a PhD in Computer Science from the **University of California Santa Barbara**, where I worked with Professor [William Yang Wang](https://sites.cs.ucsb.edu/~william/).
 I received a BS in Electrical Engineering from **National Taiwan University**, where I fortunately worked with professors [Lin-shan Lee](http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm), [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php), and [Yun-Nung Chen](https://www.csie.ntu.edu.tw/~yvchen/) on language modeling, deep learning algorithms, and speech processing.
 
